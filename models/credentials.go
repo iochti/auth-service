@@ -21,11 +21,12 @@ var GHubCSecret string
 
 // Init a Credential instance by setting its IDS
 func (c *Credentials) Init() error {
-	flag.StringVar(&GHubCID, "ghub_cid", "", "Githbub Cid for Oauth")
-	flag.StringVar(&GHubCSecret, "ghub_csecret", "", "Github Secret for Oauth")
+	flag.StringVar(&GHubCID, "ghub-cid", "", "Githbub Cid for Oauth")
+	flag.StringVar(&GHubCSecret, "ghub-csecret", "", "Github Secret for Oauth")
 	flag.Parse()
 
 	if GHubCID == "" || GHubCSecret == "" {
+		fmt.Println("Error, missing ghub credentials")
 		return fmt.Errorf("Missing Github credential ID or Secret")
 	}
 	c.Cid = GHubCID
