@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+package proto;
+
+service AuthSvc {
+  rpc HandleAuth (AuthRequest) returns (AuthResponse) {}
+  rpc GetLoginURL (LoginURLRequest) returns (LoginURLResponse) {}
+}
+
+message AuthRequest {
+  string state = 1;
+  string code = 2;
+}
+
+message AuthResponse {
+  string user = 1;
+}
+
+message LoginURLRequest {
+  string state = 1;
+}
+
+message LoginURLResponse {
+  string url = 1;
+}
