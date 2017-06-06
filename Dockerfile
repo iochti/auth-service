@@ -14,4 +14,6 @@ RUN go get github.com/tools/godep
 RUN godep restore
 RUN go install ./...
 
+RUN rm -rf /go/src/github.com/iochti/auth-service
+
 CMD ["auth-service"]
