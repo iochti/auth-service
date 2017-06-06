@@ -53,7 +53,7 @@ func main() {
 	if flag.NArg() != 0 {
 		dieIf(fmt.Errorf("expecting zero arguments but got %d", flag.NArg()))
 	}
-	svc := &models.AuthSvc{
+	svc := &AuthSvc{
 		Conf: conf,
 	}
 

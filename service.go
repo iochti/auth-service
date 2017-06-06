@@ -1,11 +1,10 @@
-package models
+package main
 
 import (
 	"crypto/rand"
 	"encoding/base64"
 	"fmt"
 	"io/ioutil"
-	"os"
 
 	pb "github.com/iochti/auth-service/proto"
 	"golang.org/x/net/context"
@@ -50,12 +49,4 @@ func (a *AuthSvc) GetLoginURL(ctx context.Context, in *pb.LoginURLRequest) (*pb.
 	}
 	url := a.Conf.AuthCodeURL(state)
 	return &pb.LoginURLResponse{Url: url}, nil
-}
-
-func dieIf(err error) {
-	if err == nil {
-		return
-	}
-	fmt.Fprintf(os.Stderr, "Error: %s Try --help for help.\n", err)
-	os.Exit(-1)
 }
