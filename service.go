@@ -30,7 +30,7 @@ func (a *AuthSvc) HandleAuth(ctx context.Context, in *pb.AuthRequest) (*pb.AuthR
 	res := pb.AuthResponse{}
 	defer user.Body.Close()
 	data, _ := ioutil.ReadAll(user.Body)
-	res.User = string(data)
+	res.User = data
 	return &res, nil
 }
 

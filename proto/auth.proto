@@ -13,7 +13,7 @@ message AuthRequest {
 }
 
 message AuthResponse {
-  string user = 1;
+  bytes user = 1;
 }
 
 message LoginURLRequest {
