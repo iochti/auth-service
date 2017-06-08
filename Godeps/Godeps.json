@@ -58,19 +58,19 @@
 		},
 		{
 			"ImportPath": "golang.org/x/text/secure/bidirule",
-			"Rev": "ccbd3f7822129ff389f8ca4858a9b9d4d910531c"
+			"Rev": "eae24e7440a7aee8476ea69a0c574eafb42f5839"
 		},
 		{
 			"ImportPath": "golang.org/x/text/transform",
-			"Rev": "ccbd3f7822129ff389f8ca4858a9b9d4d910531c"
+			"Rev": "eae24e7440a7aee8476ea69a0c574eafb42f5839"
 		},
 		{
 			"ImportPath": "golang.org/x/text/unicode/bidi",
-			"Rev": "ccbd3f7822129ff389f8ca4858a9b9d4d910531c"
+			"Rev": "eae24e7440a7aee8476ea69a0c574eafb42f5839"
 		},
 		{
 			"ImportPath": "golang.org/x/text/unicode/norm",
-			"Rev": "ccbd3f7822129ff389f8ca4858a9b9d4d910531c"
+			"Rev": "eae24e7440a7aee8476ea69a0c574eafb42f5839"
 		},
 		{
 			"ImportPath": "google.golang.org/genproto/googleapis/rpc/status",
@@ -78,73 +78,73 @@
 		},
 		{
 			"ImportPath": "google.golang.org/grpc",
-			"Comment": "v1.2.0-129-g6fecf28",
-			"Rev": "6fecf2831adf75ce3b8b756d2d174db8a2044dbb"
+			"Comment": "v1.2.0-132-g06c9848",
+			"Rev": "06c984861f3044e61f84671f9fe660da0fdf4997"
 		},
 		{
 			"ImportPath": "google.golang.org/grpc/codes",
-			"Comment": "v1.2.0-129-g6fecf28",
-			"Rev": "6fecf2831adf75ce3b8b756d2d174db8a2044dbb"
+			"Comment": "v1.2.0-132-g06c9848",
+			"Rev": "06c984861f3044e61f84671f9fe660da0fdf4997"
 		},
 		{
 			"ImportPath": "google.golang.org/grpc/credentials",
-			"Comment": "v1.2.0-129-g6fecf28",
-			"Rev": "6fecf2831adf75ce3b8b756d2d174db8a2044dbb"
+			"Comment": "v1.2.0-132-g06c9848",
+			"Rev": "06c984861f3044e61f84671f9fe660da0fdf4997"
 		},
 		{
 			"ImportPath": "google.golang.org/grpc/grpclb/grpc_lb_v1",
-			"Comment": "v1.2.0-129-g6fecf28",
-			"Rev": "6fecf2831adf75ce3b8b756d2d174db8a2044dbb"
+			"Comment": "v1.2.0-132-g06c9848",
+			"Rev": "06c984861f3044e61f84671f9fe660da0fdf4997"
 		},
 		{
 			"ImportPath": "google.golang.org/grpc/grpclog",
-			"Comment": "v1.2.0-129-g6fecf28",
-			"Rev": "6fecf2831adf75ce3b8b756d2d174db8a2044dbb"
+			"Comment": "v1.2.0-132-g06c9848",
+			"Rev": "06c984861f3044e61f84671f9fe660da0fdf4997"
 		},
 		{
 			"ImportPath": "google.golang.org/grpc/internal",
-			"Comment": "v1.2.0-129-g6fecf28",
-			"Rev": "6fecf2831adf75ce3b8b756d2d174db8a2044dbb"
+			"Comment": "v1.2.0-132-g06c9848",
+			"Rev": "06c984861f3044e61f84671f9fe660da0fdf4997"
 		},
 		{
 			"ImportPath": "google.golang.org/grpc/keepalive",
-			"Comment": "v1.2.0-129-g6fecf28",
-			"Rev": "6fecf2831adf75ce3b8b756d2d174db8a2044dbb"
+			"Comment": "v1.2.0-132-g06c9848",
+			"Rev": "06c984861f3044e61f84671f9fe660da0fdf4997"
 		},
 		{
 			"ImportPath": "google.golang.org/grpc/metadata",
-			"Comment": "v1.2.0-129-g6fecf28",
-			"Rev": "6fecf2831adf75ce3b8b756d2d174db8a2044dbb"
+			"Comment": "v1.2.0-132-g06c9848",
+			"Rev": "06c984861f3044e61f84671f9fe660da0fdf4997"
 		},
 		{
 			"ImportPath": "google.golang.org/grpc/naming",
-			"Comment": "v1.2.0-129-g6fecf28",
-			"Rev": "6fecf2831adf75ce3b8b756d2d174db8a2044dbb"
+			"Comment": "v1.2.0-132-g06c9848",
+			"Rev": "06c984861f3044e61f84671f9fe660da0fdf4997"
 		},
 		{
 			"ImportPath": "google.golang.org/grpc/peer",
-			"Comment": "v1.2.0-129-g6fecf28",
-			"Rev": "6fecf2831adf75ce3b8b756d2d174db8a2044dbb"
+			"Comment": "v1.2.0-132-g06c9848",
+			"Rev": "06c984861f3044e61f84671f9fe660da0fdf4997"
 		},
 		{
 			"ImportPath": "google.golang.org/grpc/stats",
-			"Comment": "v1.2.0-129-g6fecf28",
-			"Rev": "6fecf2831adf75ce3b8b756d2d174db8a2044dbb"
+			"Comment": "v1.2.0-132-g06c9848",
+			"Rev": "06c984861f3044e61f84671f9fe660da0fdf4997"
 		},
 		{
 			"ImportPath": "google.golang.org/grpc/status",
-			"Comment": "v1.2.0-129-g6fecf28",
-			"Rev": "6fecf2831adf75ce3b8b756d2d174db8a2044dbb"
+			"Comment": "v1.2.0-132-g06c9848",
+			"Rev": "06c984861f3044e61f84671f9fe660da0fdf4997"
 		},
 		{
 			"ImportPath": "google.golang.org/grpc/tap",
-			"Comment": "v1.2.0-129-g6fecf28",
-			"Rev": "6fecf2831adf75ce3b8b756d2d174db8a2044dbb"
+			"Comment": "v1.2.0-132-g06c9848",
+			"Rev": "06c984861f3044e61f84671f9fe660da0fdf4997"
 		},
 		{
 			"ImportPath": "google.golang.org/grpc/transport",
-			"Comment": "v1.2.0-129-g6fecf28",
-			"Rev": "6fecf2831adf75ce3b8b756d2d174db8a2044dbb"
+			"Comment": "v1.2.0-132-g06c9848",
+			"Rev": "06c984861f3044e61f84671f9fe660da0fdf4997"
 		}
 	]
 }
